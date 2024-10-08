@@ -40,10 +40,10 @@
 (unless (package-installed-p 'gruber-darker-theme)
   (use-package gruber-darker-theme))
 
-(load-theme 'doom-gruvbox t)
-
 (setq doom-themes-enabled-bold nil
       doom-themes-enabled-italic nil)
+
+(load-theme 'doom-gruvbox t)
 
 ;; Doom themes - gruvbox, acario-dark, manegarm
 
